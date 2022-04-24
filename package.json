@@ -1,0 +1,24 @@
+{
+  "name": "TailwindCSS_CoffeeStyle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinhlam2512/TailwindCSS_CoffeeStyle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vinhlam2512/TailwindCSS_CoffeeStyle/issues"
+  },
+  "homepage": "https://github.com/Vinhlam2512/TailwindCSS_CoffeeStyle#readme"
+}
